@@ -4,17 +4,20 @@
   "description": "100% immitation flux architecture",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "mocha"
   },
   "author": "Brent Burgoyne",
   "license": "MIT",
   "dependencies": {
+    "es6-promise": "^2.0.1",
+    "obj-eql": "^1.0.1",
     "object-assign": "^2.0.0"
   },
   "devDependencies": {
-    "jest-cli": "^0.2.1"
+    "mocha": "^2.1.0",
+    "should": "^5.0.1",
+   "sinon": "^1.12.2"
   },
-  "jest": {},
   "keywords": [
     "flux",
     "react",
